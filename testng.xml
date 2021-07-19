@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation" verbose="1">
+    <test name="Test Basics 1">
+        <parameter name="login" value="16067057157"/>
+        <classes>
+            <class name="tests.Superadmin"/>
+        </classes>
+    </test>
+</suite>

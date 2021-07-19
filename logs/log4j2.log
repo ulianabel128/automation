@@ -1,7 +1,7 @@
-2021-05-10 18:17:11,526 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:17:11,561 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:17:11,561 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:17:11,562 ERROR SuperadminTests [main] Error message
+2021-07-15 11:17:28,919 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:17:28,951 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:17:28,951 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:17:28,952 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -10,7 +10,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:48) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -20,11 +20,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -34,10 +30,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:18:06,588 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:18:06,596 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:18:06,596 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:18:06,596 ERROR SuperadminTests [main] Error message
+2021-07-15 11:24:23,127 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:24:23,136 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:24:23,137 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:24:23,137 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -46,7 +42,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:51) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -56,11 +52,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -70,10 +62,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:19:26,053 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:19:26,059 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:19:26,059 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:19:26,059 ERROR SuperadminTests [main] Error message
+2021-07-15 11:24:50,834 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:24:50,840 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:24:50,840 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:24:50,841 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -82,7 +74,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:51) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -92,11 +84,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -106,10 +94,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:22:46,908 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:22:46,918 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:22:46,918 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:22:46,918 ERROR SuperadminTests [main] Error message
+2021-07-15 11:26:15,626 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:26:15,634 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:26:15,634 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:26:15,635 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -118,7 +106,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:57) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -128,11 +116,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -142,10 +126,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:24:20,846 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:24:20,846 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:24:20,854 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:24:20,854 ERROR SuperadminTests [main] Error message
+2021-07-15 11:26:53,502 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:26:53,509 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:26:53,510 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:26:53,510 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -154,7 +138,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:57) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -164,11 +148,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -178,10 +158,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:40:12,334 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:40:12,334 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:40:12,346 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:40:12,347 ERROR SuperadminTests [main] Error message
+2021-07-15 11:27:22,648 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:27:22,652 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:27:22,652 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:27:22,653 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -190,7 +170,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -200,11 +180,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -214,10 +190,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:48:13,024 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:48:13,032 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:48:13,032 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:48:13,033 ERROR SuperadminTests [main] Error message
+2021-07-15 11:27:55,250 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:27:55,258 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:27:55,258 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:27:55,258 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -226,7 +202,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -236,11 +212,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -250,10 +222,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:55:47,095 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:55:47,103 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:55:47,103 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:55:47,103 ERROR SuperadminTests [main] Error message
+2021-07-15 11:32:12,479 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:32:12,485 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:32:12,486 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:32:12,486 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -262,7 +234,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -272,11 +244,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -286,10 +254,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:58:46,791 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:58:46,806 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:58:46,806 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:58:46,806 ERROR SuperadminTests [main] Error message
+2021-07-15 11:35:10,916 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 11:35:10,923 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 11:35:10,923 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 11:35:10,924 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -298,7 +266,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -308,11 +276,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -322,10 +286,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 18:59:20,799 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 18:59:20,807 WARN SuperadminTests [main] Something to warn
-2021-05-10 18:59:20,808 ERROR SuperadminTests [main] Something failed.
-2021-05-10 18:59:20,808 ERROR SuperadminTests [main] Error message
+2021-07-15 13:36:42,417 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 13:36:42,427 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 13:36:42,428 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 13:36:42,429 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -334,7 +298,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -344,11 +308,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -358,10 +318,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 19:00:03,294 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 19:00:03,299 WARN SuperadminTests [main] Something to warn
-2021-05-10 19:00:03,299 ERROR SuperadminTests [main] Something failed.
-2021-05-10 19:00:03,299 ERROR SuperadminTests [main] Error message
+2021-07-15 13:37:28,636 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 13:37:28,648 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 13:37:28,648 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 13:37:28,652 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -370,7 +330,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -380,11 +340,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -394,10 +350,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 19:01:41,931 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 19:01:41,948 WARN SuperadminTests [main] Something to warn
-2021-05-10 19:01:41,948 ERROR SuperadminTests [main] Something failed.
-2021-05-10 19:01:41,948 ERROR SuperadminTests [main] Error message
+2021-07-15 13:48:57,825 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 13:48:57,838 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 13:48:57,838 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 13:48:57,839 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -406,7 +362,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -416,11 +372,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -430,10 +382,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 19:10:48,366 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 19:10:48,377 WARN SuperadminTests [main] Something to warn
-2021-05-10 19:10:48,378 ERROR SuperadminTests [main] Something failed.
-2021-05-10 19:10:48,379 ERROR SuperadminTests [main] Error message
+2021-07-15 14:13:24,758 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 14:13:24,764 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 14:13:24,764 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 14:13:24,765 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -442,7 +394,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -452,11 +404,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -466,10 +414,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 19:12:38,852 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 19:12:38,878 WARN SuperadminTests [main] Something to warn
-2021-05-10 19:12:38,878 ERROR SuperadminTests [main] Something failed.
-2021-05-10 19:12:38,879 ERROR SuperadminTests [main] Error message
+2021-07-15 14:15:44,155 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 14:15:44,157 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 14:15:44,157 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 14:15:44,157 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -478,7 +426,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -488,11 +436,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -502,10 +446,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 19:38:51,429 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 19:38:51,445 WARN SuperadminTests [main] Something to warn
-2021-05-10 19:38:51,445 ERROR SuperadminTests [main] Something failed.
-2021-05-10 19:38:51,445 ERROR SuperadminTests [main] Error message
+2021-07-15 14:16:54,448 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 14:16:54,448 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 14:16:54,448 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 14:16:54,448 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -514,7 +458,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -524,11 +468,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
@@ -538,10 +478,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-05-10 21:20:12,782 INFO SuperadminTests [main] Log4j2ExampleApp started.
-2021-05-10 21:20:12,790 WARN SuperadminTests [main] Something to warn
-2021-05-10 21:20:12,790 ERROR SuperadminTests [main] Something failed.
-2021-05-10 21:20:12,790 ERROR SuperadminTests [main] Error message
+2021-07-15 14:31:45,883 INFO u.BaseConfigurationTest [main] Log4j2ExampleApp started.
+2021-07-15 14:31:45,889 WARN u.BaseConfigurationTest [main] Something to warn
+2021-07-15 14:31:45,889 ERROR u.BaseConfigurationTest [main] Something failed.
+2021-07-15 14:31:45,889 ERROR u.BaseConfigurationTest [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -550,7 +490,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:375) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:426) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3272) ~[?:?]
-	at SuperadminTests.beforeTest(SuperadminTests.java:56) [test-classes/:?]
+	at utils.BaseConfigurationTest.beforeSuite(BaseConfigurationTest.java:34) [test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -560,11 +500,7 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222) [testng-6.14.3.jar:?]
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.beforeRun(TestRunner.java:529) [testng-6.14.3.jar:?]
-	at org.testng.TestRunner.run(TestRunner.java:497) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
