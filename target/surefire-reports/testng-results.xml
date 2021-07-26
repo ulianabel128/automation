@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-19T06:26:31Z" name="Surefire suite" finished-at="2021-07-19T06:26:31Z" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2021-07-19T06:26:31Z" name="Surefire test" finished-at="2021-07-19T06:26:31Z" duration-ms="38">
+      <class name="utils.BaseConfigurationTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utils.BaseConfigurationTest@46e64760]" started-at="2021-07-19T06:26:28Z" name="beforeSuite" finished-at="2021-07-19T06:26:31Z" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- utils.BaseConfigurationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

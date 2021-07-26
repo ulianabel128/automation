@@ -1,5 +1,6 @@
 package tests;
 
+import static config.ConfigSingle.cfg;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class Superadmin extends BaseConfigurationTest {
+public class Superadmin extends BaseConfigurationTest{
 
     WebDriverWait wait;
     JavascriptExecutor js;
@@ -27,7 +28,7 @@ public class Superadmin extends BaseConfigurationTest {
     Properties property;
 
     @BeforeTest
-    public void beforeTest() throws Exception{
+    public void beforeTest() throws Exception {
 
         driver = DriversManager.getDriver();
 
@@ -44,7 +45,7 @@ public class Superadmin extends BaseConfigurationTest {
         property.load(fis);
 
         //Открываем браузер
-        driver.get(property.getProperty("test.url"));
+        driver.get(cfg.getBaseUriProperties());
     }
 
     @Test
