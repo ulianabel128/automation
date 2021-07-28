@@ -12,6 +12,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <aspectj.version>1.8.10</aspectj.version>
+        <owner.version>1.0.12</owner.version>
     </properties>
 
     <dependencies>
@@ -67,7 +68,7 @@
             <dependency>
                 <groupId>org.aeonbits.owner</groupId>
                 <artifactId>owner</artifactId>
-                <version>1.0.8</version>
+                <version>${owner.version}</version>
             </dependency>
     </dependencies>
 
